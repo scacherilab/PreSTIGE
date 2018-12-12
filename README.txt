@@ -9,10 +9,12 @@ Bedtools 2.17.0
 
 ###download from https://osf.io/9gh7b/ and place it into PRESTIGE/PRETIGE
 txt_files.tar.gz
-db_wig_files
+bigWIGs
 
 ##place bigWigs into proper directory structure
+mv bigWIGs db_wig_files
 cd db_wig_files
+
 mkdir hg19 hg18 mm9
 ls *.bw | while read file
 do
